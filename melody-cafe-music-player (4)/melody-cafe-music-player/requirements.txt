@@ -1,0 +1,7 @@
+# The app runs with plain Python (tkinter is built in).
+# pygame is an OPTIONAL backup audio engine (helps with mp3 on Mac/Linux).
+pygame>=2.5
+# Optional but recommended: fixes SSL certificate errors for online music
+certifi
+# Full-length online music search & downloads (no 30-second cap)
+yt-dlp>=2024.0.0
